@@ -1,0 +1,63 @@
+#directory {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.profile {
+  width: 20%;
+  text-align: center;
+}
+
+.profilePic {
+  width: 100%;
+}
+.profileName {
+  text-transform: uppercase;
+  text-decoration: underline green;
+  }
+
+.profileEmail {
+
+  }
+
+.profileAddress {
+  text-transform: capitalize;
+  }
+
+.profilePhone {
+
+  }
+
+.ssn {
+
+}
+
+h2 {
+
+}
+
+img {
+
+}
+
+br {
+
+}
+
+p {
+
+}
+
+address {
+
+}
+
+span {
+
+}
