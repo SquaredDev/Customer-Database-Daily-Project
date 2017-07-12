@@ -1,21 +1,32 @@
+* {
+
+}
+
 #directory {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
 }
 
 .title {
   text-transform: uppercase;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.profileWrap {
+  display: block;
+  width: 20%;
+  text-align: center;
+  margin: 20px;
 }
 
 .profile {
-  width: 20%;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .profilePic {
-  width: 100%;
+  width: 90%;
 }
 .profileName {
   text-transform: uppercase;
@@ -23,7 +34,7 @@
   }
 
 .profileEmail {
-
+  color: grey;
   }
 
 .profileAddress {
@@ -35,7 +46,12 @@
   }
 
 .ssn {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
 
+.ssn:hover {
+  color: black;
 }
 
 h2 {
