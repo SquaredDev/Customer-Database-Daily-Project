@@ -1,5 +1,4 @@
 * {
-
 }
 
 #directory {
@@ -27,6 +26,7 @@
 
 .profilePic {
   width: 90%;
+  max-width: 200px;
 }
 .profileName {
   text-transform: uppercase;
@@ -42,7 +42,6 @@
   }
 
 .profilePhone {
-
   }
 
 .ssn {
@@ -55,25 +54,19 @@
 }
 
 h2 {
-
 }
 
 img {
-
 }
 
 br {
-
 }
 
 p {
-
 }
 
 address {
-
 }
 
 span {
-
 }
